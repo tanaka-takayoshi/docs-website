@@ -2,11 +2,196 @@ title: Full-Stack Observability
 path: /docs/full-stack-observability
 icon: nr-fso
 pages:
+  - title: Instrument everything
+    pages:
+      - title: Develop your own integrations
+        pages:
+          - title: New Relic APIs
+            path: /docs/full-stack-observability/instrument-everything/develop-your-own-integrations/new-relic-apis
+          - title: New Relic integrations SDK
+            path: /docs/full-stack-observability/instrument-everything/develop-your-own-integrations/new-relic-integrations-sdk
+          - title: New Relic Telemetry SDK
+            path: /docs/full-stack-observability/instrument-everything/develop-your-own-integrations/new-relic-telemetry-sdk
+          - title: 'New Relic Flex: Build your own integration'
+            path: /docs/integrations/host-integrations/host-integrations-list/flex-integration-tool-build-your-own-integration
+      - title: Instrument your code and infrastructure
+        pages:
+          - title: Infrastructure agent
+            path: /docs/full-stack-observability/instrument-everything/instrument-applications-infrastructure/infrastructure-agent
+          - title: Language agents (APM)
+            path: /docs/full-stack-observability/instrument-everything/instrument-applications-infrastructure/language-agents-apm
+      - title: Instrument core services and applications
+        pages:
+          - title: Amazon ECS integration
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/amazon-ecs-integration
+          - title: Cloud services integrations
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/cloud-services-integrations
+          - title: On-host integrations
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/core-services-integrations
+          - title: Grafana integrations
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/grafana-integrations
+          - title: Kubernetes integration
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/kubernetes-integration
+          - title: New Relic Plugins
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/new-relic-plugins
+          - title: Open source telemetry integrations
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/open-source-telemetry-integrations
+          - title: Prometheus integrations
+            path: /docs/full-stack-observability/instrument-everything/instrument-core-services-applications/prometheus-integrations
+      - title: Get started with New Relic instrumentation
+        pages:
+          - title: Introduction to New Relic integrations
+            path: /docs/integrations/intro-integrations/get-started/introduction-new-relic-integrations
+  - title: Observe everything
+    pages:
+      - title: Observability solutions
+        pages:
+          - title: Application monitoring (APM)
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/application-monitoring-apm
+          - title: Browser monitoring
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/browser-monitoring
+          - title: Distributed tracing
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/distributed-tracing
+          - title: Infrastructure monitoring
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/infrastructure-monitoring
+          - title: Kubernetes monitoring
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/kubernetes-monitoring
+          - title: Logs in context
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/logs-context
+          - title: Mobile monitoring
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/mobile-monitoring
+          - title: Serverless monitoring
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/serverless-monitoring
+          - title: Synthetic monitoring
+            path: /docs/full-stack-observability/monitor-everything/observability-solutions/synthetic-monitoring
+      - title: Get started with New Relic observability
+        pages:
+          - title: Get started with Full-Stack Observability
+            path: /docs/full-stack-observability/observe-everything/get-started-new-relic-observability/get-started-full-stack-observability
   - title: Logs
     path: /docs/logs
     pages:
+      - title: Logs in context
+        pages:
+          - title: Configure logs in context
+            pages:
+              - title: Configure logs in context with APM agents
+                path: /docs/logs/enable-log-management-new-relic/configure-logs-context/configure-logs-context-apm-agents
+          - title: Enable log monitoring in New Relic
+            pages:
+              - title: AWS FireLens plugin for log forwarding
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/aws-firelens-plugin-log-forwarding
+              - title: AWS Lambda for sending CloudWatch logs
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/aws-lambda-sending-cloudwatch-logs
+              - title: AWS Lambda for sending logs from S3
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/aws-lambda-sending-logs-s3
+              - title: Enable log management in New Relic
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/enable-log-management-new-relic
+              - title: Fluent Bit plugin for log forwarding
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/fluent-bit-plugin-log-forwarding
+              - title: Fluentd plugin for log forwarding
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/fluentd-plugin-log-forwarding
+              - title: Forward your logs using the infrastructure agent
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/forward-your-logs-using-infrastructure-agent
+              - title: Kubernetes plugin for log forwarding
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/kubernetes-plugin-log-forwarding
+              - title: Logstash plugin for log forwarding
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/logstash-plugin-log-forwarding
+              - title: Stream logs using Kinesis Data Firehose
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/stream-logs-using-kinesis-data-firehose
+              - title: Vector output sink for log forwarding
+                path: /docs/logs/enable-log-management-new-relic/enable-log-monitoring-new-relic/vector-output-sink-log-forwarding
+          - title: Logs in context with agent APIs
+            pages:
+              - title: Annotate logs for logs in context using APM agent APIs
+                path: /docs/logs/enable-log-management-new-relic/logs-context-agent-apis/annotate-logs-logs-context-using-apm-agent-apis
+          - title: Logs in context for Go
+            pages:
+              - title: Configure logs in context for Go
+                path: /docs/logs/enable-log-management-new-relic/logs-context-go/configure-logs-context-go
+          - title: Logs in context for Java
+            pages:
+              - title: Configure logs in context for Java
+                path: /docs/logs/enable-log-management-new-relic/logs-context-java/configure-logs-context-java
+              - title: 'Java: Configure with Dropwizard'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-java/java-configure-dropwizard
+              - title: 'Java: Configure with java.util.logging'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-java/java-configure-javautillogging
+              - title: 'Java: Configure with Log4j 1.x'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-java/java-configure-log4j-1x
+              - title: 'Java: Configure with Log4j 2.x'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-java/java-configure-log4j-2x
+              - title: 'Java: Configure with Logback'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-java/java-configure-logback
+              - title: 'Java: Configure with Spring and Spring Boot'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-java/java-configure-spring-spring-boot
+              - title: 'Java: Adding to the classpath'
+                path: /docs/logs/enable-log-monitoring-new-relic/logs-context-java/java-adding-classpath
+          - title: Logs in context for .NET
+            pages:
+              - title: Configure logs in context for .NET
+                path: /docs/logs/enable-log-management-new-relic/logs-context-net/configure-logs-context-net
+              - title: '.NET: Configure with log4net'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-net/net-configure-log4net
+              - title: '.NET: Configure with NLog'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-net/net-configure-nlog
+              - title: '.NET: Configure with Serilog'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-net/net-configure-serilog
+          - title: Logs in context for Node.js
+            pages:
+              - title: Configure logs in context for Node.js
+                path: /docs/logs/enable-log-management-new-relic/logs-context-nodejs/configure-logs-context-nodejs
+              - title: 'Node.js: Configure with Winston'
+                path: /docs/logs/enable-log-management-new-relic/logs-context-nodejs/nodejs-configure-winston
+          - title: Logs in context for PHP
+            pages:
+              - title: Configure logs in context for PHP
+                path: /docs/logs/enable-log-management-new-relic/logs-context-php/configure-logs-context-php
+          - title: Logs in context for Python
+            pages:
+              - title: Configure logs in context for Python
+                path: /docs/logs/enable-log-management-new-relic/logs-context-python/configure-logs-context-python
+          - title: Logs in context for Ruby
+            pages:
+              - title: Configure logs in context for Ruby
+                path: /docs/logs/enable-log-management-new-relic/logs-context-ruby/configure-logs-context-ruby
+          - title: New Relic Logs
+            pages:
+              - title: Introduction to log monitoring
+                path: /docs/logs/enable-log-management-new-relic/new-relic-logs/introduction-log-monitoring
       - title: Log management
         path: /docs/logs
+        pages:
+          - title: Get started
+            pages:
+              - title: Get started with log management
+                path: /docs/logs/log-management/get-started/get-started-log-management
+              - title: New Relic's log management security and privacy
+                path: /docs/logs/log-management/get-started/new-relics-log-management-security-privacy
+          - title: Log API
+            pages:
+              - title: Introduction to the Log API
+                path: /docs/logs/log-management/log-api/introduction-log-api
+          - title: UI and data
+            pages:
+              - title: Built-in log parsing rulesets
+                path: /docs/logs/log-management/ui-data/built-log-parsing-rulesets
+              - title: Drop data with drop filter rules
+                path: /docs/logs/log-management/ui-data/drop-data-drop-filter-rules
+              - title: Explore your data with log analytics
+                path: /docs/logs/log-management/ui-data/explore-your-data-log-analytics
+              - title: Find unusual logs with log patterns (beta)
+                path: /docs/logs/log-management/ui-data/find-unusual-logs-log-patterns-beta
+              - title: 'Logs parsing: Built-in rules and custom parsing'
+                path: /docs/logs/log-management/ui-data/logs-parsing-built-rules-custom-parsing
+              - title: Query syntax for logs
+                path: /docs/logs/log-management/ui-data/query-syntax-logs
+          - title: Enable Logs
+            pages:
+              - title: Configure logs in context with APM agents
+                path: /docs/logs/log-monitoring/enable-logs/configure-logs-context-apm-agents
+              - title: Enable log monitoring in New Relic
+                path: /docs/logs/log-monitoring/enable-logs/enable-log-monitoring-new-relic
   - title: APM
     path: /docs/apm
     pages:
@@ -98,6 +283,8 @@ pages:
                 path: /docs/apm/transactions/intro-transactions/monitor-background-processes-other-non-web-transactions
               - title: Transactions in New Relic APM
                 path: /docs/apm/transactions/intro-transactions/transactions-new-relic-apm
+              - title: 'Transactions page: Find specific performance problems'
+                path: /docs/apm/transactions/intro-transactions/transactions-page-find-specific-performance-problems
           - title: Key transactions
             pages:
               - title: Create and update key transactions
@@ -142,6 +329,10 @@ pages:
             path: /docs/apm/new-relic-apm/getting-started/introduction-apm
           - title: View app alert information in APM
             path: /docs/apm/new-relic-apm/getting-started/view-app-alert-information-apm
+      - title: Guides
+        pages:
+          - title: APM best practices guide
+            path: /docs/apm/new-relic-apm/guides/apm-best-practices-guide
       - title: Maintenance
         pages:
           - title: Disable the APM agent
@@ -156,6 +347,8 @@ pages:
             path: /docs/apm/new-relic-apm/troubleshooting/charts-missing-or-do-not-render
           - title: CPU usage mismatch or usage over 100%
             path: /docs/apm/new-relic-apm/troubleshooting/cpu-usage-mismatch-or-usage-over-100
+          - title: Event limits and sampling for APM and mobile monitoring
+            path: /docs/using-new-relic/data/understand-data/new-relic-event-limits-sampling
   - title: Browser monitoring
     path: /docs/browser
     pages:
@@ -165,6 +358,8 @@ pages:
             path: /docs/browser/browser-monitoring/browser-pro-features/ajax-page-identify-time-consuming-calls
           - title: 'Session traces: Explore a webpage''s life cycle'
             path: /docs/browser/browser-monitoring/browser-pro-features/session-traces-explore-webpages-life-cycle
+          - title: Browser data in distributed tracing
+            path: /docs/browser/new-relic-browser/browser-pro-features/browser-data-distributed-tracing
           - title: 'Browser error profiles: Find error causes'
             path: /docs/browser/new-relic-browser/browser-pro-features/browser-error-profiles-find-error-causes
           - title: 'Filterable Geography: Webpage metrics by location'
@@ -181,6 +376,8 @@ pages:
         pages:
           - title: Browser license key and app ID
             path: /docs/browser/browser-monitoring/configuration/browser-license-key-app-id
+          - title: Privacy settings
+            path: /docs/browser/browser-monitoring/configuration/privacy-settings
           - title: 'Browser settings: UI options for Apdex and geography'
             path: /docs/browser/new-relic-browser/configuration/browser-settings-ui-options-apdex-geography
           - title: Group browser metrics by URLs
@@ -203,6 +400,12 @@ pages:
             path: /docs/browser/new-relic-browser/getting-started/compatibility-requirements-browser-monitoring
           - title: Introduction to Browser monitoring
             path: /docs/browser/new-relic-browser/getting-started/introduction-browser-monitoring
+      - title: Guides
+        pages:
+          - title: Browser monitoring best practices guide
+            path: /docs/browser/browser-monitoring/guides/browser-monitoring-best-practices-guide
+          - title: Guide to using the Browser and SPA APIs
+            path: /docs/browser/new-relic-browser/guides/guide-using-browser-spa-apis
       - title: Installation
         pages:
           - title: Install the Browser monitoring agent
@@ -231,6 +434,8 @@ pages:
             path: /docs/browser/new-relic-browser/page-load-timing-resources/navigation-start-time-unknown
           - title: Page load timing process
             path: /docs/browser/new-relic-browser/page-load-timing-resources/page-load-timing-process
+          - title: 'PageViewTiming: Async or dynamic page details'
+            path: /docs/browser/new-relic-browser/page-load-timing-resources/pageviewtiming-async-or-dynamic-page-details
       - title: Additional standard features
         pages:
           - title: 'Browser Geography: Webpage performance by location'
@@ -300,8 +505,20 @@ pages:
         pages:
           - title: Enable and configure
             pages:
+              - title: AWS Lambda
+                path: /docs/understand-dependencies/distributed-tracing/enable-configure/aws-lambda
+              - title: 'Integrations: Enable distributed tracing'
+                path: /docs/understand-dependencies/distributed-tracing/enable-configure/integrations-enable-distributed-tracing
               - title: 'Language agents: Enable distributed tracing'
                 path: /docs/understand-dependencies/distributed-tracing/enable-configure/language-agents-enable-distributed-tracing
+              - title: New Relic Browser
+                path: /docs/understand-dependencies/distributed-tracing/enable-configure/new-relic-browser
+              - title: 'Overview: Enable distributed tracing'
+                path: /docs/understand-dependencies/distributed-tracing/enable-configure/overview-enable-distributed-tracing
+              - title: Trace API
+                path: /docs/understand-dependencies/distributed-tracing/enable-configure/trace-api
+              - title: Zipkin
+                path: /docs/understand-dependencies/distributed-tracing/enable-configure/zipkin
           - title: Get started
             pages:
               - title: 'Distributed tracing: Planning guide'
@@ -310,8 +527,34 @@ pages:
                 path: /docs/understand-dependencies/distributed-tracing/get-started/how-new-relic-distributed-tracing-works
               - title: Introduction to distributed tracing
                 path: /docs/understand-dependencies/distributed-tracing/get-started/introduction-distributed-tracing
+          - title: Other requirements
+            pages:
+              - title: 'Infinite Tracing: Configuring SSL for Java 7 and 8'
+                path: /docs/understand-dependencies/distributed-tracing/other-requirements/infinite-tracing-configuring-ssl-java-7-8
+              - title: 'Infinite Tracing: Proxy support'
+                path: /docs/understand-dependencies/distributed-tracing/other-requirements/infinite-tracing-proxy-support
+              - title: 'Infinite Tracing: Random trace filter'
+                path: /docs/understand-dependencies/distributed-tracing/other-requirements/infinite-tracing-random-trace-filter
+              - title: 'Infinite Tracing: Span attribute trace filter'
+                path: /docs/understand-dependencies/distributed-tracing/other-requirements/infinite-tracing-span-attribute-trace-filter
+              - title: 'Infinite Tracing: Trace observer monitoring'
+                path: /docs/understand-dependencies/distributed-tracing/other-requirements/infinite-tracing-trace-observer-monitoring
+          - title: Trace API
+            pages:
+              - title: Introduction to the Trace API
+                path: /docs/understand-dependencies/distributed-tracing/trace-api/introduction-trace-api
+              - title: Report traces via the Trace API (New Relic format)
+                path: /docs/understand-dependencies/distributed-tracing/trace-api/report-new-relic-format-traces-trace-api
+              - title: Report Zipkin-format traces via Trace API
+                path: /docs/understand-dependencies/distributed-tracing/trace-api/report-zipkin-format-traces-trace-api
+              - title: 'Trace API: Decorate spans with attributes'
+                path: /docs/understand-dependencies/distributed-tracing/trace-api/trace-api-decorate-spans-attributes
+              - title: Trace API general requirements and limits
+                path: /docs/understand-dependencies/distributed-tracing/trace-api/trace-api-general-requirements-limits
           - title: UI and data
             pages:
+              - title: Browser data
+                path: /docs/understand-dependencies/distributed-tracing/ui-data/browser-data
               - title: Query distributed trace data
                 path: /docs/understand-dependencies/distributed-tracing/ui-data/query-distributed-trace-data
               - title: Span attributes
@@ -320,8 +563,14 @@ pages:
                 path: /docs/understand-dependencies/distributed-tracing/ui-data/understand-use-distributed-tracing-ui
       - title: Understand system dependencies
         pages:
+          - title: Relationship API
+            pages:
+              - title: Relationship API
+                path: /docs/understand-dependencies/understand-system-dependencies/relationship-api/relationship-api
           - title: Service maps
             pages:
+              - title: How to use service maps
+                path: /docs/understand-dependencies/understand-system-dependencies/service-maps/how-use-service-maps
               - title: Introduction to service maps
                 path: /docs/understand-dependencies/understand-system-dependencies/service-maps/introduction-service-maps
               - title: Legacy APM service maps
@@ -335,6 +584,10 @@ pages:
             pages:
               - title: No data appears (Infrastructure)
                 path: /docs/infrastructure/infrastructure-troubleshooting/troubleshoot-infrastructure/no-data-appears-infrastructure
+          - title: Troubleshoot logs
+            pages:
+              - title: Infrastructure agent logging behavior
+                path: /docs/infrastructure/infrastructure-troubleshooting/troubleshoot-logs/infrastructure-agent-logging-behavior
       - title: Infrastructure monitoring UI
         pages:
           - title: Infrastructure UI
@@ -365,18 +618,30 @@ pages:
                 path: /docs/infrastructure/install-infrastructure-agent/configuration/config-file-template-newrelic-infrayml
               - title: Configure the infrastructure agent
                 path: /docs/infrastructure/install-infrastructure-agent/configuration/configure-infrastructure-agent
+              - title: Infrastructure agent configuration settings
+                path: /docs/infrastructure/install-infrastructure-agent/configuration/infrastructure-agent-configuration-settings
           - title: Get started
             pages:
+              - title: Install the infrastructure agent
+                path: /docs/infrastructure/install-infrastructure-agent/get-started/install-infrastructure-agent
               - title: Requirements for the infrastructure agent
                 path: /docs/infrastructure/install-infrastructure-agent/get-started/requirements-infrastructure-agent
           - title: Linux installation
             pages:
+              - title: Azure extensions for Infrastructure
+                path: /docs/infrastructure/install-infrastructure-agent/linux-installation/azure-extensions-infrastructure
               - title: Docker container for infrastructure monitoring
                 path: /docs/infrastructure/install-infrastructure-agent/linux-installation/docker-container-infrastructure-monitoring
               - title: Docker instrumentation for Infrastructure
                 path: /docs/infrastructure/install-infrastructure-agent/linux-installation/docker-instrumentation-infrastructure
               - title: Install the infrastructure agent for Linux
                 path: /docs/infrastructure/install-infrastructure-agent/linux-installation/install-infrastructure-agent-linux
+              - title: Linux agent running modes
+                path: /docs/infrastructure/install-infrastructure-agent/linux-installation/linux-agent-running-modes
+              - title: Tarball assisted install of the infrastructure agent for Linux
+                path: /docs/infrastructure/install-infrastructure-agent/linux-installation/tarball-assisted-install-infrastructure-agent-linux
+              - title: Tarball manual install of the infrastructure agent for Linux
+                path: /docs/infrastructure/install-infrastructure-agent/linux-installation/tarball-manual-install-infrastructure-agent-linux
           - title: Manage your agent
             pages:
               - title: Agent message size
@@ -387,16 +652,24 @@ pages:
                 path: /docs/infrastructure/install-infrastructure-agent/manage-your-agent/infrastructure-agent-performance-overhead
               - title: 'Start, stop, and restart the infrastructure agent'
                 path: /docs/infrastructure/install-infrastructure-agent/manage-your-agent/start-stop-restart-infrastructure-agent
+              - title: Troubleshoot a running infrastructure agent
+                path: /docs/infrastructure/install-infrastructure-agent/manage-your-agent/troubleshoot-running-infrastructure-agent
           - title: Update or uninstall
             pages:
               - title: Uninstall the infrastructure agent
                 path: /docs/infrastructure/install-infrastructure-agent/update-or-uninstall/uninstall-infrastructure-agent
+              - title: Uninstall infrastructure integrations
+                path: /docs/infrastructure/install-infrastructure-agent/update-or-uninstall/uninstall-infrastructure-integrations
               - title: Update the infrastructure agent
                 path: /docs/infrastructure/install-infrastructure-agent/update-or-uninstall/update-infrastructure-agent
           - title: Windows installation
             pages:
               - title: Install the infrastructure agent for Windows
                 path: /docs/infrastructure/install-infrastructure-agent/windows-installation/install-infrastructure-agent-windows-server-using-msi-installer
+              - title: Zip assisted install of the infrastructure agent for Windows
+                path: /docs/infrastructure/install-infrastructure-agent/windows-installation/zip-assisted-install-infrastructure-agent-windows
+              - title: Zip manual install of the infrastructure agent for Windows
+                path: /docs/infrastructure/install-infrastructure-agent/windows-installation/zip-manual-install-infrastructure-agent-windows
       - title: Manage your data
         pages:
           - title: Data and instrumentation
@@ -405,6 +678,8 @@ pages:
                 path: /docs/infrastructure/manage-your-data/data-instrumentation/apm-data-infrastructure-monitoring
               - title: Default infrastructure events
                 path: /docs/infrastructure/manage-your-data/data-instrumentation/default-infrastructure-events
+              - title: On-host integrations metrics
+                path: /docs/infrastructure/manage-your-data/data-instrumentation/host-integrations-metrics
               - title: Integration data
                 path: /docs/infrastructure/new-relic-infrastructure/data-instrumentation/integration-data
           - title: Filter and group
@@ -423,6 +698,12 @@ pages:
             path: /docs/infrastructure/integrations/integrations/azure-integrations
           - title: Google Cloud integrations
             path: /docs/infrastructure/integrations/types-integrations/google-cloud-integrations
+          - title: Integrations SDK
+            path: /docs/infrastructure/integrations/types-integrations/integrations-sdk
+          - title: Intro to integrations
+            path: /docs/infrastructure/integrations/types-integrations/intro-integrations
+          - title: Kubernetes integration
+            path: /docs/infrastructure/integrations/types-integrations/introduction-kubernetes-integration
   - title: Mobile monitoring
     path: /docs/mobile-monitoring
     pages:
@@ -560,6 +841,8 @@ pages:
             pages:
               - title: Android agent crash reporting
                 path: /docs/mobile-monitoring/new-relic-mobile-android/install-configure/android-agent-crash-reporting
+              - title: Configure the New Relic Gradle plugin
+                path: /docs/mobile-monitoring/new-relic-mobile-android/install-configure/configure-new-relic-gradle-plugin
               - title: Configure ProGuard or DexGuard for Android Apps
                 path: /docs/mobile-monitoring/new-relic-mobile-android/install-configure/configure-proguard-or-dexguard-android-apps
               - title: Install Android apps with Gradle and Android Studio
@@ -572,6 +855,10 @@ pages:
             pages:
               - title: Install Android apps with support for legacy Android versions
                 path: /docs/mobile-monitoring/new-relic-mobile-android/legacy/install-android-apps-android-22-support
+          - title: Troubleshoot
+            pages:
+              - title: Event limits and sampling
+                path: /docs/mobile-monitoring/new-relic-mobile-android/troubleshoot/event-limits-sampling
       - title: New Relic Mobile Cordova
         pages:
           - title: Get started
@@ -650,6 +937,10 @@ pages:
                 path: /docs/mobile-monitoring/new-relic-mobile-ios/ios-sdk-api/set-user-id
               - title: View all methods
                 path: /docs/mobile-monitoring/new-relic-mobile-ios/ios-sdk-api/view-all-methods
+          - title: Troubleshoot
+            pages:
+              - title: Event limits and sampling
+                path: /docs/mobile-monitoring/new-relic-mobile-ios/troubleshoot/event-limits-sampling
           - title: tvOS
             pages:
               - title: CocoaPods for tvOS installation and configuration
@@ -672,6 +963,10 @@ pages:
                 path: /docs/mobile-monitoring/new-relic-mobile/get-started/mobile-monitoring-alert-information
               - title: Security for mobile apps
                 path: /docs/mobile-monitoring/new-relic-mobile/get-started/security-mobile-apps
+          - title: Guides
+            pages:
+              - title: Mobile monitoring best practices guide
+                path: /docs/mobile-monitoring/new-relic-mobile/guides/mobile-monitoring-best-practices-guide
           - title: Maintenance
             pages:
               - title: Add custom data to mobile monitoring
@@ -682,5 +977,44 @@ pages:
                 path: /docs/mobile-monitoring/new-relic-mobile/maintenance/deleting-mobile-app
               - title: Application token for New Relic mobile monitoring
                 path: /docs/mobile-monitoring/new-relic-mobile/maintenance/viewing-your-application-token
+  - title: Serverless function monitoring
+    path: /docs/serverless-function-monitoring
+    pages:
+      - title: AWS Lambda monitoring
+        pages:
+          - title: Enable Lambda monitoring
+            pages:
+              - title: Configure serverless monitoring for AWS Lambda
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/enable-lambda-monitoring/configure-serverless-monitoring-aws-lambda
+              - title: Enable serverless monitoring for AWS Lambda
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/enable-lambda-monitoring/enable-serverless-monitoring-aws-lambda
+              - title: Enable serverless monitoring using the Lambda layer
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/enable-lambda-monitoring/enable-serverless-monitoring-using-lambda-layer
+              - title: Update serverless monitoring for AWS Lambda
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/enable-lambda-monitoring/update-serverless-monitoring-aws-lambda
+          - title: Get started
+            pages:
+              - title: Compatibility and requirements of AWS Lambda monitoring
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/get-started/compatibility-requirements-aws-lambda-monitoring
+              - title: Monitoring AWS Lambda with Serverless monitoring
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/get-started/monitoring-aws-lambda-serverless-monitoring
+          - title: UI and data
+            pages:
+              - title: Understand the Lambda data structure
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/ui-data/understand-lambda-data-structure
+              - title: Understand the Lambda monitoring UI
+                path: /docs/serverless-function-monitoring/aws-lambda-monitoring/ui-data/understand-lambda-monitoring-ui
+      - title: Azure functions monitoring
+        pages:
+          - title: Get started
+            pages:
+              - title: Azure Functions monitoring integration
+                path: /docs/serverless-function-monitoring/azure-functions-monitoring/get-started/azure-functions-monitoring-integration
+      - title: Google Cloud Functions monitoring
+        pages:
+          - title: Get started
+            pages:
+              - title: Google Cloud Functions monitoring integration
+                path: /docs/serverless-function-monitoring/google-cloud-functions-monitoring/get-started/google-cloud-functions-monitoring-integration
   - title: Synthetic monitoring
     path: /docs/synthetics

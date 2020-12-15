@@ -2,12 +2,36 @@ title: Alerts and Applied Intelligence
 path: /docs/alerts-and-applied-intelligence
 icon: nr-ai
 pages:
+  - title: Applied intelligence
+    pages:
+      - title: Incident intelligence
+        pages:
+          - title: Change Applied Intelligence correlation logic with decisions
+            path: /docs/alerts-applied-intelligence/applied-intelligence/incident-intelligence/change-applied-intelligence-correlation-logic-decisions
+          - title: Get started with Incident Intelligence
+            path: /docs/alerts-applied-intelligence/applied-intelligence/incident-intelligence/get-started-incident-intelligence
+          - title: Incident Intelligence destination examples
+            path: /docs/alerts-applied-intelligence/applied-intelligence/incident-intelligence/incident-intelligence-destination-examples
+          - title: REST API for Applied Intelligence
+            path: /docs/alerts-applied-intelligence/applied-intelligence/incident-intelligence/rest-api-applied-intelligence
+      - title: Incident workflows
+        pages:
+          - title: Custom variables for Incident Workflows
+            path: /docs/alerts-applied-intelligence/applied-intelligence/incident-workflows/custom-variables-incident-workflows
+          - title: Incident Workflows
+            path: /docs/alerts-applied-intelligence/applied-intelligence/incident-workflows/enhance-notifications-incident-workflows
+      - title: Proactive detection
+        pages:
+          - title: Proactive Detection with Applied Intelligence
+            path: /docs/alerts-applied-intelligence/applied-intelligence/proactive-detection/proactive-detection-applied-intelligence
   - title: Alerts and Applied Intelligence
     path: /docs/alerts-applied-intelligence
   - title: New Relic Alerts
     pages:
       - title: Alert conditions
         pages:
+          - title: Alert custom violation descriptions
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-conditions/alert-custom-violation-descriptions
           - title: Create alert conditions
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-conditions/create-alert-conditions
           - title: Create baseline alert conditions
@@ -16,6 +40,8 @@ pages:
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-conditions/create-nrql-alert-conditions
           - title: Define custom metrics for an alert condition
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-conditions/define-custom-metrics-alert-condition
+          - title: Multi-location Synthetic monitoring alert conditions
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-conditions/multi-location-synthetic-monitoring-alert-conditions
           - title: Outlier detection (NRQL alert)
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-conditions/outlier-detection-nrql-alert
           - title: Provide runbook instructions for alert activity
@@ -44,6 +70,8 @@ pages:
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/customize-your-webhook-payload
           - title: Delete alert notification channels
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/delete-alert-notification-channels
+          - title: 'Muting rules: Suppress notifications'
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/muting-rules-suppress-notifications
           - title: 'Notification channels: Control where to send alerts'
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/notification-channels-control-where-send-alerts
           - title: Test alert notification channels
@@ -52,6 +80,8 @@ pages:
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/update-alert-notification-channels
           - title: View or update user email channels
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/view-or-update-user-email-channels
+          - title: Enhance notifications using New Relic Connect
+            path: /docs/alerts/new-relic-alerts/managing-notification-channels/new-relic-connect
       - title: Alert policies
         pages:
           - title: 'Create, edit, or find an alert policy'
@@ -68,12 +98,32 @@ pages:
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/how-alert-condition-violations-are-closed
           - title: View alert violations from our products
             path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products
+          - title: Violation event attributes
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/violation-event-attributes
+      - title: Alerts and Nerdgraph
+        pages:
+          - title: 'NerdGraph API: Alerts policies'
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alerts-nerdgraph/nerdgraph-api-alerts-policies
+          - title: 'NerdGraph API: Examples'
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alerts-nerdgraph/nerdgraph-api-examples
+          - title: 'NerdGraph API: Loss of signal and gap filling'
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alerts-nerdgraph/nerdgraph-api-loss-signal-gap-filling
+          - title: 'NerdGraph API: NRQL condition alerts'
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/alerts-nerdgraph/nerdgraph-api-nrql-condition-alerts
       - title: Get started
         pages:
+          - title: Alerts & AI overview page
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/get-started/alerts-ai-overview-page
+          - title: Alerts best practices
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/get-started/alerts-best-practices
           - title: Alerts concepts and workflow
             path: /docs/alerts-applied-intelligence/new-relic-alerts/get-started/alerts-concepts-workflow
           - title: Introduction to Alerts
             path: /docs/alerts-applied-intelligence/new-relic-alerts/get-started/introduction-alerts
+          - title: Introduction to Applied Intelligence
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/get-started/introduction-applied-intelligence
+          - title: 'Streaming alerts: key terms and concepts'
+            path: /docs/alerts-applied-intelligence/new-relic-alerts/get-started/streaming-alerts-key-terms-concepts
       - title: REST API alerts
         pages:
           - title: Alerts conditions API field names

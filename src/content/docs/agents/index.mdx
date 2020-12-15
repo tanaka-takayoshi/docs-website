@@ -9,18 +9,23 @@ template: tableOfContents
 
 * [APM security: C SDK](/docs/agents/c-sdk/get-started/apm-security-c-sdk)
 * [C SDK compatibility and requirements](/docs/agents/c-sdk/get-started/c-sdk-compatibility-requirements)
+* [C SDK release notes](/docs/agents/c-sdk/get-started/c-sdk-release-notes)
 * [Introduction to the C SDK](/docs/agents/c-sdk/get-started/introduction-c-sdk)
 * [C SDK](/docs/agents/c-sdk)
 
 ### Install configure
 
 * [C SDK configuration](/docs/agents/c-sdk/install-configure/c-sdk-configuration)
+* [Docker and other container environments: Install C SDK](/docs/agents/c-sdk/install-configure/docker-other-container-environments-install-c-sdk)
 * [Install the C SDK: Compile and link your code](/docs/agents/c-sdk/install-configure/install-c-sdk-compile-link-your-code)
 * [Uninstall (remove) the C SDK](/docs/agents/c-sdk/install-configure/uninstall-remove-c-sdk)
 * [Update your C SDK library](/docs/agents/c-sdk/install-configure/update-your-c-sdk-library)
 
 ### Instrumentation
 
+* [Enable distributed tracing for your C applications](/docs/agents/c-sdk/instrumentation/enable-distributed-tracing-your-c-applications)
+* [Guide to using the C SDK API](/docs/agents/c-sdk/instrumentation/guide-using-c-sdk-api)
+* [Instrument your app with the C SDK](/docs/agents/c-sdk/instrumentation/instrument-your-app-c-sdk)
 * [Use default or custom attributes (C SDK)](/docs/agents/c-sdk/instrumentation/use-default-or-custom-attributes-c-sdk)
 
 ## Go agent
@@ -42,6 +47,7 @@ template: tableOfContents
 * [Cross application tracing with Go](/docs/agents/go-agent/features/cross-application-tracing-go)
 * [Enable distributed tracing for your Go applications](/docs/agents/go-agent/features/enable-distributed-tracing-your-go-applications)
 * [Go runtime page: Troubleshoot performance problems](/docs/agents/go-agent/features/go-runtime-page-troubleshoot-performance-problems)
+* [Trace asynchronous applications](/docs/agents/go-agent/features/trace-asynchronous-applications)
 
 ### Get started
 
@@ -56,6 +62,7 @@ template: tableOfContents
 * [Install the Go agent in GAE flexible environment](/docs/agents/go-agent/installation/install-go-agent-gae-flexible-environment)
 * [Install New Relic for Go](/docs/agents/go-agent/installation/install-new-relic-go)
 * [Uninstall the Go agent](/docs/agents/go-agent/installation/uninstall-go-agent)
+* [Update the Go agent](/docs/agents/go-agent/installation/update-go-agent)
 
 ### Instrumentation
 
@@ -70,7 +77,9 @@ template: tableOfContents
 
 * [AWS Elastic Beanstalk installation for Java](/docs/agents/java-agent/additional-installation/aws-elastic-beanstalk-installation-java)
 * [IBM WebSphere Application Server](/docs/agents/java-agent/additional-installation/ibm-websphere-application-server)
+* [Install Java agent using Gradle](/docs/agents/java-agent/additional-installation/install-java-agent-using-gradle)
 * [Install Java agent using Maven](/docs/agents/java-agent/additional-installation/install-java-agent-using-maven)
+* [Install New Relic Java agent with Ansible](/docs/agents/java-agent/additional-installation/install-new-relic-java-agent-ansible)
 * [Install New Relic Java agent for Docker](/docs/agents/java-agent/additional-installation/install-new-relic-java-agent-docker)
 * [Install New Relic Java agent in GAE flexible environment](/docs/agents/java-agent/additional-installation/install-new-relic-java-agent-gae-flexible-environment)
 * [WildFly installation for Java](/docs/agents/java-agent/additional-installation/wildfly-installation-java)
@@ -103,6 +112,7 @@ template: tableOfContents
 * [Java agent config file template](/docs/agents/java-agent/configuration/java-agent-config-file-template)
 * [Java agent configuration: Config file](/docs/agents/java-agent/configuration/java-agent-configuration-config-file)
 * [Java agent error configuration](/docs/agents/java-agent/configuration/java-agent-error-configuration)
+* [Name your Java application](/docs/agents/java-agent/configuration/name-your-java-application)
 
 ### Custom instrumentation
 
@@ -113,11 +123,13 @@ template: tableOfContents
 * [Java custom instrumentation](/docs/agents/java-agent/custom-instrumentation/java-custom-instrumentation)
 * [Java instrumentation by XML](/docs/agents/java-agent/custom-instrumentation/java-instrumentation-xml)
 * [Java XML instrumentation examples](/docs/agents/java-agent/custom-instrumentation/java-xml-instrumentation-examples)
+* [Messaging framework instrumentation](/docs/agents/java-agent/custom-instrumentation/messaging-framework-instrumentation)
 * [Troubleshooting Java custom instrumentation](/docs/agents/java-agent/custom-instrumentation/troubleshooting-java-custom-instrumentation)
 
 ### Features
 
 * [JVMs page (Java): View app server metrics from JMX](/docs/agents/java-agent/features/jvms-page-java-view-app-server-metrics-jmx)
+* [Real-time profiling for Java using JFR metrics](/docs/agents/java-agent/features/real-time-profiling-java-using-jfr-metrics)
 
 ### Frameworks
 
@@ -147,9 +159,11 @@ template: tableOfContents
 
 ### Instrumentation
 
+* [Browser monitoring best practices in Java](/docs/agents/java-agent/instrumentation/browser-monitoring-best-practices-java)
 * [Extension and additional instrumentation modules](/docs/agents/java-agent/instrumentation/extension-additional-instrumentation-modules)
 * [Ignore specific transactions](/docs/agents/java-agent/instrumentation/ignore-transactions-using-api)
 * [Instrument browser monitoring with Java agent API](/docs/agents/java-agent/instrumentation/instrument-browser-monitoring-java-agent-api)
+* [Java agent: Instrument Kafka message queues](/docs/agents/java-agent/instrumentation/java-agent-instrument-kafka-message-queues)
 * [Monitor deployments (Java agent)](/docs/agents/java-agent/instrumentation/monitor-deployments-java-agent)
 * [Transaction naming protocol](/docs/agents/java-agent/instrumentation/transaction-naming-protocol)
 * [Use RabbitMQ or JMS for message queues](/docs/agents/java-agent/instrumentation/use-rabbitmq-or-jms-message-queues)
@@ -168,7 +182,9 @@ template: tableOfContents
 * [Collect custom events](/docs/agents/manage-apm-agents/agent-data/collect-custom-events)
 * [Collect custom metrics](/docs/agents/manage-apm-agents/agent-data/collect-custom-metrics)
 * [Custom instrumentation](/docs/agents/manage-apm-agents/agent-data/custom-instrumentation)
+* [Link your applications to Kubernetes](/docs/agents/manage-apm-agents/agent-data/link-your-applications-kubernetes)
 * [Manage errors in APM: Collect, ignore, or mark as expected](/docs/agents/manage-apm-agents/agent-data/manage-errors-apm-collect-ignore-or-mark-expected)
+* [Real time streaming](/docs/agents/manage-apm-agents/agent-data/real-time-streaming)
 
 ### App naming
 
@@ -195,6 +211,7 @@ template: tableOfContents
 
 ### Attributes
 
+* [Custom attributes (.NET)](/docs/agents/net-agent/attributes/custom-attributes-net)
 * [Enable and disable attributes (.NET)](/docs/agents/net-agent/attributes/enable-disable-attributes-net)
 * [.NET agent attributes](/docs/agents/net-agent/attributes/net-agent-attributes)
 * [.NET attribute examples](/docs/agents/net-agent/attributes/net-attribute-examples)
@@ -244,6 +261,8 @@ template: tableOfContents
 ### Installation
 
 * [Install on Docker container](/docs/agents/net-agent/installation/install-docker-container)
+* [Install .NET agent for Linux](/docs/agents/net-agent/installation/install-net-agent-linux)
+* [Install .NET agent for Windows](/docs/agents/net-agent/installation/install-net-agent-windows)
 * [Introduction to .NET agent install](/docs/agents/net-agent/installation/introduction-net-agent-install)
 * [Uninstall the .NET agent](/docs/agents/net-agent/installation/uninstall-net-agent)
 * [Update the .NET agent](/docs/agents/net-agent/installation/update-net-agent)
@@ -278,6 +297,14 @@ template: tableOfContents
 
 * [Async support in .NET](/docs/agents/net-agent/other-features/async-support-net)
 * [Browser monitoring and the .NET agent](/docs/agents/net-agent/other-features/browser-monitoring-net-agent)
+* [Limit log disk space with log rolling](/docs/agents/net-agent/other-features/limit-log-disk-space-log-rolling)
+* [.Net Performance Metrics](/docs/agents/net-agent/other-features/net-performance-metrics)
+
+### Other installation
+
+* [How to verify the checksum of .NET Agent downloads](/docs/agents/net-agent/other-installation/how-verify-checksum-net-agent-downloads)
+* [Install .NET agent for ASP.NET Core](/docs/agents/net-agent/other-installation/install-net-agent-aspnet-core)
+* [Install .NET agent for Windows Communication Foundation (WCF)](/docs/agents/net-agent/other-installation/install-net-agent-windows-communication-foundation-wcf)
 
 ### Troubleshooting
 
@@ -301,6 +328,7 @@ template: tableOfContents
 
 ### Extend your instrumentation
 
+* [Apollo Server plugin and Node.js](/docs/agents/nodejs-agent/extend-your-instrumentation/apollo-server-plugin-nodejs)
 * [Browser monitoring and the Node.js agent](/docs/agents/nodejs-agent/extend-your-instrumentation/browser-monitoring-nodejs-agent)
 * [Message queues](/docs/agents/nodejs-agent/extend-your-instrumentation/message-queues)
 * [Node.js custom instrumentation](/docs/agents/nodejs-agent/extend-your-instrumentation/nodejs-custom-instrumentation)
@@ -325,6 +353,7 @@ template: tableOfContents
 
 ### Installation configuration
 
+* [Install the Node.js agent for Docker](/docs/agents/nodejs-agent/installation-configuration/install-new-relic-nodejs-agent-docker)
 * [Install the Node.js agent](/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent)
 * [Node.js agent configuration](/docs/agents/nodejs-agent/installation-configuration/nodejs-agent-configuration)
 * [Uninstall the Node.js agent](/docs/agents/nodejs-agent/installation-configuration/uninstall-nodejs-agent)
@@ -341,6 +370,11 @@ template: tableOfContents
 ## Open source licensed agents
 
 * [Elixir open-source agent](/docs/agents/open-source-licensed-agents/elixir-open-source-agent)
+
+### Open source licensed agents
+
+* [New Relic C SDK](/docs/agents/open-source-licensed-agents/open-source-licensed-agents/new-relic-c-sdk)
+* [Roku open-source agent](/docs/agents/open-source-licensed-agents/roku-open-source-video-agent)
 
 ## PHP agent
 
@@ -451,6 +485,10 @@ template: tableOfContents
 
 * [Guide to using the Python agent API](/docs/agents/python-agent/api-guides/guide-using-python-agent-api)
 
+### Async instrumentation
+
+* [Asyncpg](/docs/agents/python-agent/async-instrumentation/asyncpg)
+
 ### Attributes
 
 * [Enabling and disabling attributes (Python)](/docs/agents/python-agent/attributes/enabling-disabling-attributes-python)
@@ -490,6 +528,7 @@ template: tableOfContents
 ### Installation
 
 * [Advanced install of New Relic Python agent](/docs/agents/python-agent/installation/advanced-install-new-relic-python-agent)
+* [Install the Python agent for Docker](/docs/agents/python-agent/installation/install-python-agent-docker)
 * [Python agent admin script: Advanced usage](/docs/agents/python-agent/installation/python-agent-admin-script-advanced-usage)
 * [Python agent: Advanced integration](/docs/agents/python-agent/installation/python-agent-advanced-integration)
 * [Standard Python agent install](/docs/agents/python-agent/installation/standard-python-agent-install)
@@ -549,6 +588,7 @@ template: tableOfContents
 * [Monitor non-web scripts, worker processes, tasks, and functions](/docs/agents/python-agent/supported-features/monitor-non-web-scripts-worker-processes-tasks-functions)
 * [Optional manual Browser instrumentation with Django templates](/docs/agents/python-agent/supported-features/optional-manual-browser-instrumentation-django-templates)
 * [Python custom metrics](/docs/agents/python-agent/supported-features/python-custom-metrics)
+* [Python event loop diagnostics](/docs/agents/python-agent/supported-features/python-event-loop-diagnostics)
 * [Python message queues](/docs/agents/python-agent/supported-features/python-message-queues)
 * [Python tips and tricks](/docs/agents/python-agent/supported-features/python-tips-tricks)
 
@@ -556,14 +596,21 @@ template: tableOfContents
 
 * [Python agent and AJP WSGI server](/docs/agents/python-agent/web-frameworks-servers/python-agent-ajp-wsgi-server)
 * [Python agent and CherryPy web framework](/docs/agents/python-agent/web-frameworks-servers/python-agent-cherrypy-web-framework)
+* [Python agent and FastAPI web framework](/docs/agents/python-agent/web-frameworks-servers/python-agent-fastapi-web-framework)
+* [Python agent and FastAPI web framework](/docs/agents/python-agent/web-frameworks-servers/python-agent-fastapi-web-framework)
 * [Python agent and FastCGI web server](/docs/agents/python-agent/web-frameworks-servers/python-agent-fastcgi-web-server)
 * [Python agent and Gunicorn WSGI web server](/docs/agents/python-agent/web-frameworks-servers/python-agent-gunicorn-wsgi-web-server)
 * [Python agent and mod_wsgi web server](/docs/agents/python-agent/web-frameworks-servers/python-agent-modwsgi-web-server)
 * [Python agent and Paste](/docs/agents/python-agent/web-frameworks-servers/python-agent-paste)
 * [Python agent and SCGI web server](/docs/agents/python-agent/web-frameworks-servers/python-agent-scgi-web-server)
+* [Python agent and Starlette web framework](/docs/agents/python-agent/web-frameworks-servers/python-agent-starlette-web-framework)
+* [Python agent and Starlette web framework](/docs/agents/python-agent/web-frameworks-servers/python-agent-starlette-web-framework)
+* [Python agent and Tornado 6 web framework](/docs/agents/python-agent/web-frameworks-servers/python-agent-tornado-6-web-framework)
 * [Python agent and uWSGI web server](/docs/agents/python-agent/web-frameworks-servers/python-agent-uwsgi-web-server)
 * [Python agent and Waitress web server](/docs/agents/python-agent/web-frameworks-servers/python-agent-waitress-web-server)
 * [Python agent and Web2py web framework](/docs/agents/python-agent/web-frameworks-servers/python-agent-web2py-web-framework)
+* [Uvicorn](/docs/agents/python-agent/web-frameworks-servers/uvicorn)
+* [Uvicorn](/docs/agents/python-agent/web-frameworks-servers/uvicorn)
 
 ## Ruby agent
 

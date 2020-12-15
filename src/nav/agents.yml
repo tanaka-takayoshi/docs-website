@@ -10,12 +10,16 @@ pages:
             path: /docs/agents/c-sdk/get-started/apm-security-c-sdk
           - title: C SDK compatibility and requirements
             path: /docs/agents/c-sdk/get-started/c-sdk-compatibility-requirements
+          - title: C SDK release notes
+            path: /docs/agents/c-sdk/get-started/c-sdk-release-notes
           - title: Introduction to the C SDK
             path: /docs/agents/c-sdk/get-started/introduction-c-sdk
       - title: Install and configure
         pages:
           - title: C SDK configuration
             path: /docs/agents/c-sdk/install-configure/c-sdk-configuration
+          - title: 'Docker and other container environments: Install C SDK'
+            path: /docs/agents/c-sdk/install-configure/docker-other-container-environments-install-c-sdk
           - title: 'Install the C SDK: Compile and link your code'
             path: /docs/agents/c-sdk/install-configure/install-c-sdk-compile-link-your-code
           - title: Uninstall (remove) the C SDK
@@ -24,6 +28,12 @@ pages:
             path: /docs/agents/c-sdk/install-configure/update-your-c-sdk-library
       - title: Instrumentation
         pages:
+          - title: Enable distributed tracing for your C applications
+            path: /docs/agents/c-sdk/instrumentation/enable-distributed-tracing-your-c-applications
+          - title: Guide to using the C SDK API
+            path: /docs/agents/c-sdk/instrumentation/guide-using-c-sdk-api
+          - title: Instrument your app with the C SDK
+            path: /docs/agents/c-sdk/instrumentation/instrument-your-app-c-sdk
           - title: Use default or custom attributes (C SDK)
             path: /docs/agents/c-sdk/instrumentation/use-default-or-custom-attributes-c-sdk
   - title: Go agent
@@ -51,6 +61,8 @@ pages:
             path: /docs/agents/go-agent/features/enable-distributed-tracing-your-go-applications
           - title: 'Go runtime page: Troubleshoot performance problems'
             path: /docs/agents/go-agent/features/go-runtime-page-troubleshoot-performance-problems
+          - title: Trace asynchronous applications
+            path: /docs/agents/go-agent/features/trace-asynchronous-applications
       - title: Instrumentation
         pages:
           - title: Create custom events (Go)
@@ -81,6 +93,8 @@ pages:
             path: /docs/agents/go-agent/installation/install-new-relic-go
           - title: Uninstall the Go agent
             path: /docs/agents/go-agent/installation/uninstall-go-agent
+          - title: Update the Go agent
+            path: /docs/agents/go-agent/installation/update-go-agent
   - title: Java agent
     path: /docs/agents/java-agent
     pages:
@@ -90,8 +104,12 @@ pages:
             path: /docs/agents/java-agent/additional-installation/aws-elastic-beanstalk-installation-java
           - title: IBM WebSphere Application Server
             path: /docs/agents/java-agent/additional-installation/ibm-websphere-application-server
+          - title: Install Java agent using Gradle
+            path: /docs/agents/java-agent/additional-installation/install-java-agent-using-gradle
           - title: Install Java agent using Maven
             path: /docs/agents/java-agent/additional-installation/install-java-agent-using-maven
+          - title: Install New Relic Java agent with Ansible
+            path: /docs/agents/java-agent/additional-installation/install-new-relic-java-agent-ansible
           - title: Install New Relic Java agent for Docker
             path: /docs/agents/java-agent/additional-installation/install-new-relic-java-agent-docker
           - title: Install New Relic Java agent in GAE flexible environment
@@ -142,6 +160,8 @@ pages:
             path: /docs/agents/java-agent/configuration/java-agent-configuration-config-file
           - title: Java agent error configuration
             path: /docs/agents/java-agent/configuration/java-agent-error-configuration
+          - title: Name your Java application
+            path: /docs/agents/java-agent/configuration/name-your-java-application
       - title: Custom instrumentation
         pages:
           - title: Circuit breaker for Java custom instrumentation
@@ -158,6 +178,8 @@ pages:
             path: /docs/agents/java-agent/custom-instrumentation/java-instrumentation-xml
           - title: Java XML instrumentation examples
             path: /docs/agents/java-agent/custom-instrumentation/java-xml-instrumentation-examples
+          - title: Messaging framework instrumentation
+            path: /docs/agents/java-agent/custom-instrumentation/messaging-framework-instrumentation
           - title: Troubleshooting Java custom instrumentation
             path: /docs/agents/java-agent/custom-instrumentation/troubleshooting-java-custom-instrumentation
           - title: Scala instrumentation
@@ -166,6 +188,8 @@ pages:
         pages:
           - title: 'JVMs page (Java): View app server metrics from JMX'
             path: /docs/agents/java-agent/features/jvms-page-java-view-app-server-metrics-jmx
+          - title: Real-time profiling for Java using JFR metrics
+            path: /docs/agents/java-agent/features/real-time-profiling-java-using-jfr-metrics
       - title: Getting started
         pages:
           - title: 'APM agent security: Java'
@@ -196,12 +220,16 @@ pages:
             path: /docs/agents/java-agent/installation/update-java-agent
       - title: Instrumentation
         pages:
+          - title: Browser monitoring best practices in Java
+            path: /docs/agents/java-agent/instrumentation/browser-monitoring-best-practices-java
           - title: Extension and additional instrumentation modules
             path: /docs/agents/java-agent/instrumentation/extension-additional-instrumentation-modules
           - title: Ignore specific transactions
             path: /docs/agents/java-agent/instrumentation/ignore-transactions-using-api
           - title: Instrument browser monitoring with Java agent API
             path: /docs/agents/java-agent/instrumentation/instrument-browser-monitoring-java-agent-api
+          - title: 'Java agent: Instrument Kafka message queues'
+            path: /docs/agents/java-agent/instrumentation/java-agent-instrument-kafka-message-queues
           - title: Monitor deployments (Java agent)
             path: /docs/agents/java-agent/instrumentation/monitor-deployments-java-agent
           - title: Transaction naming protocol
@@ -228,8 +256,12 @@ pages:
             path: /docs/agents/manage-apm-agents/agent-data/collect-custom-metrics
           - title: Custom instrumentation
             path: /docs/agents/manage-apm-agents/agent-data/custom-instrumentation
+          - title: Link your applications to Kubernetes
+            path: /docs/agents/manage-apm-agents/agent-data/link-your-applications-kubernetes
           - title: 'Manage errors in APM: Collect, ignore, or mark as expected'
             path: /docs/agents/manage-apm-agents/agent-data/manage-errors-apm-collect-ignore-or-mark-expected
+          - title: Real time streaming
+            path: /docs/agents/manage-apm-agents/agent-data/real-time-streaming
       - title: App naming
         pages:
           - title: Name your application
@@ -257,6 +289,8 @@ pages:
             path: /docs/agents/net-agent/api-guides/guide-using-net-agent-api
       - title: Attributes
         pages:
+          - title: Custom attributes (.NET)
+            path: /docs/agents/net-agent/attributes/custom-attributes-net
           - title: Enable and disable attributes (.NET)
             path: /docs/agents/net-agent/attributes/enable-disable-attributes-net
           - title: .NET agent attributes
@@ -321,10 +355,20 @@ pages:
             path: /docs/agents/net-agent/install-guides/install-net-agent-using-nuget
           - title: Install on Docker container
             path: /docs/agents/net-agent/installation/install-docker-container
+          - title: How to verify the checksum of .NET Agent downloads
+            path: /docs/agents/net-agent/other-installation/how-verify-checksum-net-agent-downloads
+          - title: Install .NET agent for ASP.NET Core
+            path: /docs/agents/net-agent/other-installation/install-net-agent-aspnet-core
+          - title: Install .NET agent for Windows Communication Foundation (WCF)
+            path: /docs/agents/net-agent/other-installation/install-net-agent-windows-communication-foundation-wcf
           - title: .NET agent install resources
             path: /docs/net-agent-install-resources
       - title: Installation
         pages:
+          - title: Install .NET agent for Linux
+            path: /docs/agents/net-agent/installation/install-net-agent-linux
+          - title: Install .NET agent for Windows
+            path: /docs/agents/net-agent/installation/install-net-agent-windows
           - title: Introduction to .NET agent install
             path: /docs/agents/net-agent/installation/introduction-net-agent-install
           - title: Uninstall the .NET agent
@@ -385,6 +429,10 @@ pages:
             path: /docs/agents/net-agent/other-features/async-support-net
           - title: Browser monitoring and the .NET agent
             path: /docs/agents/net-agent/other-features/browser-monitoring-net-agent
+          - title: Limit log disk space with log rolling
+            path: /docs/agents/net-agent/other-features/limit-log-disk-space-log-rolling
+          - title: .Net Performance Metrics
+            path: /docs/agents/net-agent/other-features/net-performance-metrics
       - title: Troubleshooting
         pages:
           - title: Agent changes Content-Type header for WCF apps (.NET)
@@ -414,6 +462,8 @@ pages:
             path: /docs/agents/nodejs-agent/attributes/nodejs-agent-attributes
       - title: Extend your instrumentation
         pages:
+          - title: Apollo Server plugin and Node.js
+            path: /docs/agents/nodejs-agent/extend-your-instrumentation/apollo-server-plugin-nodejs
           - title: Browser monitoring and the Node.js agent
             path: /docs/agents/nodejs-agent/extend-your-instrumentation/browser-monitoring-nodejs-agent
           - title: Message queues
@@ -450,6 +500,8 @@ pages:
             path: /docs/agents/nodejs-agent/hosting-services/nodejs-agent-microsoft-azure
       - title: Installation and configuration
         pages:
+          - title: Install the Node.js agent for Docker
+            path: /docs/agents/nodejs-agent/installation-configuration/install-new-relic-nodejs-agent-docker
           - title: Install the Node.js agent
             path: /docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent
           - title: Node.js agent configuration
@@ -468,6 +520,10 @@ pages:
         pages:
           - title: Elixir open-source agent
             path: /docs/agents/open-source-licensed-agents/elixir-open-source-agent
+          - title: New Relic C SDK
+            path: /docs/agents/open-source-licensed-agents/open-source-licensed-agents/new-relic-c-sdk
+          - title: Roku open-source agent
+            path: /docs/agents/open-source-licensed-agents/roku-open-source-video-agent
   - title: PHP agent
     path: /docs/agents/php-agent
     pages:
@@ -636,6 +692,16 @@ pages:
         pages:
           - title: Guide to using the Python agent API
             path: /docs/agents/python-agent/api-guides/guide-using-python-agent-api
+      - title: Async instrumentation
+        pages:
+          - title: Asyncpg
+            path: /docs/agents/python-agent/async-instrumentation/asyncpg
+          - title: Python agent and FastAPI web framework
+            path: /docs/agents/python-agent/web-frameworks-servers/python-agent-fastapi-web-framework
+          - title: Python agent and Starlette web framework
+            path: /docs/agents/python-agent/web-frameworks-servers/python-agent-starlette-web-framework
+          - title: Uvicorn
+            path: /docs/agents/python-agent/web-frameworks-servers/uvicorn
       - title: Attributes
         pages:
           - title: Enabling and disabling attributes (Python)
@@ -686,6 +752,8 @@ pages:
         pages:
           - title: Advanced install of New Relic Python agent
             path: /docs/agents/python-agent/installation/advanced-install-new-relic-python-agent
+          - title: Install the Python agent for Docker
+            path: /docs/agents/python-agent/installation/install-python-agent-docker
           - title: 'Python agent admin script: Advanced usage'
             path: /docs/agents/python-agent/installation/python-agent-admin-script-advanced-usage
           - title: 'Python agent: Advanced integration'
@@ -796,6 +864,8 @@ pages:
             path: /docs/agents/python-agent/supported-features/optional-manual-browser-instrumentation-django-templates
           - title: Python custom metrics
             path: /docs/agents/python-agent/supported-features/python-custom-metrics
+          - title: Python event loop diagnostics
+            path: /docs/agents/python-agent/supported-features/python-event-loop-diagnostics
           - title: Python message queues
             path: /docs/agents/python-agent/supported-features/python-message-queues
           - title: Python tips and tricks
@@ -806,6 +876,8 @@ pages:
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-ajp-wsgi-server
           - title: Python agent and CherryPy web framework
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-cherrypy-web-framework
+          - title: Python agent and FastAPI web framework
+            path: /docs/agents/python-agent/web-frameworks-servers/python-agent-fastapi-web-framework
           - title: Python agent and FastCGI web server
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-fastcgi-web-server
           - title: Python agent and Gunicorn WSGI web server
@@ -816,12 +888,18 @@ pages:
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-paste
           - title: Python agent and SCGI web server
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-scgi-web-server
+          - title: Python agent and Starlette web framework
+            path: /docs/agents/python-agent/web-frameworks-servers/python-agent-starlette-web-framework
+          - title: Python agent and Tornado 6 web framework
+            path: /docs/agents/python-agent/web-frameworks-servers/python-agent-tornado-6-web-framework
           - title: Python agent and uWSGI web server
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-uwsgi-web-server
           - title: Python agent and Waitress web server
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-waitress-web-server
           - title: Python agent and Web2py web framework
             path: /docs/agents/python-agent/web-frameworks-servers/python-agent-web2py-web-framework
+          - title: Uvicorn
+            path: /docs/agents/python-agent/web-frameworks-servers/uvicorn
   - title: Ruby agent
     path: /docs/agents/ruby-agent
     pages:

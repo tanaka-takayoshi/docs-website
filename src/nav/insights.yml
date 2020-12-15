@@ -25,6 +25,8 @@ pages:
         pages:
           - title: Default events reported by New Relic products
             path: /docs/insights/event-data-sources/default-data/events-reported-new-relic-products
+          - title: Infrastructure events
+            path: /docs/insights/event-data-sources/default-events/infrastructure-events
           - title: NrAuditEvent event data and query examples
             path: /docs/insights/event-data-sources/default-events/nrauditevent-event-data-query-examples
           - title: Events reported by New Relic APM
@@ -71,6 +73,8 @@ pages:
         pages:
           - title: Introduction to New Relic Insights
             path: /docs/insights/use-insights-ui/getting-started/introduction-new-relic-insights
+          - title: Switch to New Relic One from Insights
+            path: /docs/insights/use-insights-ui/getting-started/switch-new-relic-one-insights
       - title: Guides
         pages:
           - title: New Relic Insights best practices guide
@@ -79,6 +83,8 @@ pages:
         pages:
           - title: 'Data formatter: Set default formats for numeric values'
             path: /docs/insights/use-insights-ui/manage-account-data/data-formatter-set-default-formats-numeric-values
+          - title: Event data retention
+            path: /docs/insights/use-insights-ui/manage-account-data/event-data-retention
       - title: Manage dashboards
         pages:
           - title: Add and customize metric charts

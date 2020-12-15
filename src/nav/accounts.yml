@@ -23,6 +23,10 @@ pages:
         pages:
           - title: Set session timeouts
             path: /docs/accounts/accounts/account-maintenance/set-session-timeouts
+          - title: Overview of changes to pricing and user model
+            path: /docs/accounts/original-accounts-billing/original-product-based-pricing/overview-changes-pricing-user-model
+          - title: Trial and Lite accounts
+            path: /docs/accounts/original-accounts-billing/product-based-pricing/trial-lite-accounts-deprecated
           - title: Original product-based pricing and billing
             path: /docs/accounts/original-accounts-billing/product-pricing/product-based-pricing
       - title: Original users and roles
@@ -77,10 +81,16 @@ pages:
         pages:
           - title: Master/sub-account structure
             path: /docs/accounts/accounts-billing/account-structure/mastersub-account-structure
+          - title: Factors affecting access to features and data
+            path: /docs/accounts/accounts-billing/general-account-settings/factors-affecting-access-features-data
+          - title: New Relic account structure
+            path: /docs/accounts/accounts-billing/new-relic-one-pricing-users/new-relic-account-structure
           - title: Use multiple accounts
             path: /docs/accounts/install-new-relic/account-setup/use-multiple-accounts
       - title: General account settings
         pages:
+          - title: Introduction to account settings
+            path: /docs/accounts/accounts-billing/general-account-settings/introduction-account-settings
           - title: Email settings
             path: /docs/accounts/accounts/account-maintenance/account-email-settings
           - title: Set or change password
@@ -93,6 +103,40 @@ pages:
             path: /docs/accounts/accounts/subscription-pricing/eligibility-guidelines-new-relic-nonprofit-program
           - title: Default time zone setting
             path: /docs/accounts/install-new-relic/account-setup/change-your-account-time-zone-setting
+      - title: New Relic One pricing and billing
+        pages:
+          - title: 2020 changes to pricing and user model
+            path: /docs/accounts/accounts-billing/new-relic-one-pricing-billing/2020-changes-pricing-user-model
+          - title: New Relic One pricing and billing
+            path: /docs/accounts/accounts-billing/new-relic-one-pricing-billing/new-relic-one-pricing-billing
+          - title: Query and alert on billing/usage data
+            path: /docs/accounts/accounts-billing/new-relic-one-pricing-users/usage-queries-alerts
+      - title: New Relic One user management
+        pages:
+          - title: 'Add and manage users, groups, and roles'
+            path: /docs/accounts/accounts-billing/new-relic-one-user-management/add-manage-users-groups-roles
+          - title: Introduction to managing users
+            path: /docs/accounts/accounts-billing/new-relic-one-user-management/introduction-managing-users
+          - title: 'New Relic One user model: Understand the user structure'
+            path: /docs/accounts/accounts-billing/new-relic-one-user-management/new-relic-one-user-model-understand-user-structure
+          - title: 'Tutorial: Add new user groups and roles (New Relic One user model)'
+            path: /docs/accounts/accounts-billing/new-relic-one-user-management/tutorial-add-new-user-groups-roles-new-relic-one-user-model
+          - title: 'User authentication: SAML SSO, SCIM, and more'
+            path: /docs/accounts/accounts-billing/new-relic-one-user-management/user-authentication-saml-sso-scim-more
+      - title: Automated user management
+        pages:
+          - title: Automated user provisioning and single-sign on
+            path: /docs/accounts/accounts/automated-user-management/automated-user-provisioning-single-sign
+          - title: Azure AD SCIM/SSO application configuration
+            path: /docs/accounts/accounts/automated-user-management/azure-ad-scimsso-application-configuration
+          - title: Okta SCIM/SSO application configuration
+            path: /docs/accounts/accounts/automated-user-management/okta-scimsso-application-configuration
+          - title: OneLogin SCIM/SSO application configuration
+            path: /docs/accounts/accounts/automated-user-management/onelogin-scimsso-application-configuration
+          - title: Roles and permissions with automated user management
+            path: /docs/accounts/accounts/automated-user-management/roles-permissions-automated-user-management
+          - title: SCIM support for automated user management
+            path: /docs/accounts/accounts/automated-user-management/scim-support-automated-user-management
       - title: Partner installation
         pages:
           - title: Google App Engine environment

@@ -36,18 +36,22 @@ pages:
                 path: /docs/using-new-relic/cross-product-functions/troubleshooting/new-relic-diagnostics
       - title: Welcome to New Relic
         pages:
-          - title: Get started with New Relic
-            path: /docs
           - title: Get started
             pages:
               - title: Find help and use the Support portal
                 path: /docs/using-new-relic/welcome-new-relic/get-started/find-help-use-support-portal
+              - title: Get outage information (status.newrelic.com)
+                path: /docs/using-new-relic/welcome-new-relic/get-started/get-outage-information-statusnewreliccom
               - title: Glossary
                 path: /docs/using-new-relic/welcome-new-relic/get-started/glossary
               - title: Introduction to New Relic
                 path: /docs/using-new-relic/welcome-new-relic/get-started/introduction-new-relic
               - title: Our EU and US region data centers
                 path: /docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers
+              - title: View our UI in dark mode
+                path: /docs/using-new-relic/welcome-new-relic/get-started/view-our-ui-dark-mode
+          - title: Get started with New Relic
+            path: /docs/using-new-relic/welcome-new-relic
           - title: New Relic University
             pages:
               - title: New Relic University
@@ -57,15 +61,69 @@ pages:
     pages:
       - title: Use New Relic One
         pages:
+          - title: Build on New Relic One
+            pages:
+              - title: Build a custom New Relic One application
+                path: /docs/new-relic-one/use-new-relic-one/build-new-relic-one/build-custom-new-relic-one-application
+          - title: Core concepts
+            pages:
+              - title: Query builder
+                path: /docs/new-relic-one/use-new-relic-one/core-concepts/chart-builder
+              - title: Dashboards in New Relic One
+                path: /docs/new-relic-one/use-new-relic-one/core-concepts/dashboards-new-relic-one
+              - title: New Relic One transition guide July 2020
+                path: /docs/new-relic-one/use-new-relic-one/core-concepts/new-relic-one-transition-guide-july-2020
+              - title: 'Tagging: Use tags to organize and group what you monitor'
+                path: /docs/new-relic-one/use-new-relic-one/core-concepts/tagging-use-tags-organize-group-what-you-monitor
+              - title: Transition to New Relic One from Insights
+                path: /docs/new-relic-one/use-new-relic-one/core-concepts/transition-new-relic-one-insights
+              - title: What is an entity in New Relic?
+                path: /docs/new-relic-one/use-new-relic-one/core-concepts/what-entity-new-relic
+              - title: Workloads
+                path: /docs/new-relic-one/use-new-relic-one/core-concepts/workloads
+          - title: Get started
+            pages:
+              - title: Introduction to New Relic One
+                path: /docs/new-relic-one/use-new-relic-one/get-started/introduction-new-relic-one
           - title: UI and data
             pages:
+              - title: Basic UI features
+                path: /docs/new-relic-one/use-new-relic-one/ui-data/basic-ui-features
+              - title: Distributed tracing
+                path: /docs/new-relic-one/use-new-relic-one/ui-data/distributed-tracing
+              - title: 'Entity explorer: View performance across apps, services, hosts'
+                path: /docs/new-relic-one/use-new-relic-one/ui-data/entity-explorer-view-performance-across-apps-services-hosts
+              - title: 'Dependencies UI page: View an entity''s upstream and downstream dependencies'
+                path: /docs/new-relic-one/use-new-relic-one/ui-data/explore-downstream-dependencies-new-relic-one
+              - title: New Relic feature end of life announcements July 2020
+                path: /docs/new-relic-one/use-new-relic-one/ui-data/new-relic-feature-end-life-announcements-july-2020
+              - title: Service maps in New Relic One
+                path: /docs/new-relic-one/use-new-relic-one/ui-data/service-maps-new-relic-one
               - title: Supported browsers for New Relic UI
                 path: /docs/using-new-relic/user-interface-functions/view-your-data/supported-browsers-new-relics-ui
+          - title: Workloads
+            pages:
+              - title: Use workloads
+                path: /docs/new-relic-one/use-new-relic-one/workloads/use-workloads
+              - title: Workload status configuration
+                path: /docs/new-relic-one/use-new-relic-one/workloads/workload-status-configuration
+              - title: Workload status views and notifications
+                path: /docs/new-relic-one/use-new-relic-one/workloads/workload-status-views-notifications
+              - title: 'Workloads: Isolate and resolve incidents faster'
+                path: /docs/new-relic-one/use-new-relic-one/workloads/workloads-isolate-resolve-incidents-faster
   - title: Query your data
     path: /docs/query-your-data
     pages:
       - title: 'NRQL: New Relic Query Language'
         pages:
+          - title: Query tools
+            pages:
+              - title: New Relic One chart builder
+                path: /docs/query-data/nrql-new-relic-query-language/query-tools/chart-builder-create-query-visualizations
+              - title: New Relic Insights
+                path: /docs/query-data/nrql-new-relic-query-language/query-tools/insights-query-gather-visualize-data
+              - title: NerdGraph (GraphQL API)
+                path: /docs/query-data/nrql-new-relic-query-language/query-tools/nrql-api-queries
           - title: Get started
             pages:
               - title: 'Introduction to NRQL, New Relic''s query language'
@@ -82,16 +140,66 @@ pages:
                 path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/app-data-nrql-query-examples
               - title: Browser/SPA NRQL query examples
                 path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/browserspa-nrql-query-examples
+              - title: Create smoother charts with sliding windows
+                path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/create-smoother-charts-sliding-windows
               - title: 'Funnels: Evaluate data from a series of related events'
                 path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/funnels-evaluate-data-series-related-events
+              - title: Improvements to NRQL percentile()
+                path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/improvements-nrql-percentile
+              - title: 'Nested aggregation: make ordered computations in a single query'
+                path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/nested-aggregation-make-ordered-computations-single-query
               - title: 'NRQL: Group results across time'
                 path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/nrql-group-results-across-time
               - title: NRQL query examples for Mobile monitoring
                 path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/nrql-query-examples-mobile-monitoring
               - title: 'NRQL: Segment your data into buckets'
                 path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/nrql-segment-your-data-buckets
+              - title: Query APM metric timeslice data with NRQL
+                path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/query-apm-metric-timeslice-data-nrql
+              - title: Query infrastructure dimensional metrics with NRQL
+                path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/query-infrastructure-dimensional-metrics-nrql
               - title: Simulate SQL JOIN functions in Insights
                 path: /docs/query-your-data/nrql-new-relic-query-language/nrql-query-tutorials/simulate-sql-join-functions-insights
+              - title: Query the Metric data type
+                path: /docs/telemetry-data-platform/get-data/apis/query-metric-data-type
+      - title: Explore and query data
+        pages:
+          - title: Dashboards
+            pages:
+              - title: Explore the Public API Performance dashboard
+                path: /docs/query-your-data/explore-query-data/dashboards/explore-public-api-performance-dashboard
+              - title: Filter New Relic One dashboards by facets
+                path: /docs/query-your-data/explore-query-data/dashboards/filter-new-relic-one-dashboards-facets
+              - title: Introduction to dashboards
+                path: /docs/query-your-data/explore-query-data/dashboards/introduction-dashboards
+              - title: Manage your dashboard
+                path: /docs/query-your-data/explore-query-data/dashboards/manage-your-dashboard
+              - title: New Relic Global Performance data sets
+                path: /docs/query-your-data/explore-query-data/dashboards/new-relic-global-performance-data-sets
+          - title: Explore data
+            pages:
+              - title: Introduction to the data explorer
+                path: /docs/query-your-data/explore-query-data/data-explorer/introduction-data-explorer
+          - title: New Relic Query Language
+            pages:
+              - title: NRQL
+                path: /docs/query-your-data/explore-query-data/nrql/nrql
+          - title: Query builder
+            pages:
+              - title: Introduction to the query builder
+                path: /docs/query-your-data/explore-query-data/query-builder/introduction-query-builder
+              - title: 'Query builder: Basic mode'
+                path: /docs/query-your-data/explore-query-data/query-builder/query-builder-basic-mode
+              - title: Use advanced (NRQL) mode to query data
+                path: /docs/query-your-data/explore-query-data/query-builder/use-advanced-nrql-mode-query-data
+              - title: Use advanced PromQL-style mode to query data
+                path: /docs/query-your-data/explore-query-data/query-builder/use-advanced-promql-style-mode-query-data
+          - title: Use charts
+            pages:
+              - title: Chart types
+                path: /docs/query-your-data/explore-query-data/use-charts/chart-types-0
+              - title: Use  your charts
+                path: /docs/query-your-data/explore-query-data/use-charts/use-your-charts
   - title: Mobile apps
     path: /docs/mobile-apps
     pages:

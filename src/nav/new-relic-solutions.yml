@@ -9,10 +9,14 @@ pages:
         pages:
           - title: Alerts best practices
             path: /docs/new-relic-solutions/best-practices-guides/alerts-applied-intelligence/alerts-best-practices
+          - title: Best practices for AI decisions
+            path: /docs/new-relic-solutions/best-practices-guides/alerts-applied-intelligence/best-practices-ai-decisions
       - title: Full-stack observability
         pages:
           - title: APM best practices guide
             path: /docs/new-relic-solutions/best-practices-guides/full-stack-observability/apm-best-practices-guide
+          - title: Best practices to enable distributed tracing
+            path: /docs/new-relic-solutions/best-practices-guides/full-stack-observability/best-practices-enable-distributed-tracing
           - title: Browser monitoring best practices guide
             path: /docs/new-relic-solutions/best-practices-guides/full-stack-observability/browser-monitoring-best-practices-guide
           - title: Browser monitoring best practices in Java
@@ -25,6 +29,10 @@ pages:
             path: /docs/new-relic-solutions/best-practices-guides/full-stack-observability/monitor-apps-hosts-health-maps
           - title: Synthetic monitoring best practices guide
             path: /docs/new-relic-solutions/best-practices-guides/full-stack-observability/synthetic-monitoring-best-practices-guide
+      - title: Telemetry data platform
+        pages:
+          - title: Best practices for sending trace data
+            path: /docs/new-relic-solutions/best-practices-guides/telemetry-data-platform/best-practices-sending-trace-data
   - title: New Relic solutions
     pages:
       - title: Cloud adoption
@@ -55,6 +63,8 @@ pages:
         pages:
           - title: 'App remediation: Gather performance statistics'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/app-remediation-gather-performance-statistics
+          - title: Automate instrumentation
+            path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/automate-instrumentation
           - title: 'Customer experience improvement: track experience indicators'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/customer-experience-improvement-track-experience-indicators
           - title: 'Establish objectives and baselines: define team SLOs'
@@ -63,15 +73,39 @@ pages:
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/establish-team-dashboards-gather-visualize-key-metrics
           - title: Guide to measuring DevOps success
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/guide-measuring-devops-success
+          - title: 'Incident learning: Retrospectives'
+            path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/incident-learning-retrospectives
           - title: 'Incident orchestration: Align teams, tools, processes'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/incident-orchestration-align-teams-tools-processes
           - title: 'Infrastructure resource sizing: analyze operation metrics'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/infrastructure-resource-sizing-analyze-operation-metrics
           - title: 'Iterate and measure impact: track metrics before and after deployments'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/iterate-measure-impact-track-metrics-after-deployments
+          - title: Measure code pipelines
+            path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/measure-code-pipelines
           - title: 'Operations review: assess and optimize team progress'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/operations-review-assess-optimize-team-progress
           - title: 'Resolve dependency risk: identify and analyze potential issues'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/resolve-dependency-risk-identify-analyze-potential-issues
           - title: 'Set proactive alerting: understand and respond to performance issues'
             path: /docs/new-relic-solutions/new-relic-solutions/measure-devops-success/set-proactive-alerting-understand-respond-performance-issues
+      - title: Optimize your cloud native environment
+        pages:
+          - title: Adopt cloud services
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/adopt-cloud-services
+          - title: Analyze distributed systems
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/analyze-distributed-systems
+          - title: 'Customer experience improvement: Track experience indicators'
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/customer-experience-improvement-track-experience-indicators
+          - title: Guide to optimizing your cloud native environment
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/guide-optimizing-your-cloud-native-environment
+          - title: 'Iterate and measure impact: Track metrics before and after deployments'
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/iterate-measure-impact-track-metrics-after-deployments
+          - title: Manage your containerized environment
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/manage-your-containerized-environment
+          - title: Migrate to microservices
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/migrate-microservices
+          - title: Optimize cloud architecture and spend to continuously improve your modern cloud environment
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/optimize-cloud-architecture-spend-continuously-improve-your-modern-cloud-environment
+          - title: 'Set proactive alerts and align teams, tools, and processes for incident response'
+            path: /docs/new-relic-solutions/new-relic-solutions/optimize-your-cloud-native-environment/set-proactive-alerts-align-teams-tools-processes-incident-response

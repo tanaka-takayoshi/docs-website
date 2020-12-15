@@ -15,9 +15,15 @@ pages:
             path: /docs/infrastructure/integrations-sdk/understand-use-data/understand-use-integration-data
       - title: Specifications
         pages:
+          - title: On-host integration configuration overview
+            path: /docs/create-integrations/infrastructure-integrations-sdk/specifications/host-integration-configuration-overview
           - title: 'On-host integration executable file: JSON specifications'
             path: /docs/create-integrations/infrastructure-integrations-sdk/specifications/host-integration-executable-file-json-specifications
           - title: On-host integration files
             path: /docs/create-integrations/infrastructure-integrations-sdk/specifications/host-integration-files
+          - title: 'On-host integrations: Newer configuration format'
+            path: /docs/create-integrations/infrastructure-integrations-sdk/specifications/host-integrations-newer-configuration-format
+          - title: 'On-host integrations: Standard configuration format'
+            path: /docs/create-integrations/infrastructure-integrations-sdk/specifications/host-integrations-standard-configuration-format
           - title: Integration logging recommendations
             path: /docs/create-integrations/infrastructure-integrations-sdk/specifications/integration-logging-recommendations

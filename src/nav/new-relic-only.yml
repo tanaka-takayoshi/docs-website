@@ -92,6 +92,10 @@ pages:
             path: /docs/new-relic-only/tech-writer-style-guide/design-specifications/color-design-specs
           - title: Supported languages for syntax highlighting
             path: /docs/new-relic-only/tech-writer-style-guide/design-specifications/supported-languages-syntax-highlighting
+      - title: Miscellaneous
+        pages:
+          - title: How to edit the Developer docs
+            path: /docs/new-relic-only/tech-writer-style-guide/miscellaneous/git-workflow-dev-site
       - title: Processes and procedures
         pages:
           - title: Checklist for public beta or GA
