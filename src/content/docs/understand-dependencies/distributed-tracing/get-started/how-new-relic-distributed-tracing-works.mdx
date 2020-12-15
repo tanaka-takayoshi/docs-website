@@ -103,7 +103,7 @@ Tail-based sampling means that filtering decisions are done at the tail end of p
 
     Here are two architectural diagrams: one showing how data flows if you use APM agents and another if you use New Relic integrations like OpenTelemetry exporters:
 
-    ![Here are two diagrams showing the flow of data: one for agents and another for integrations with Infinite Tracing.](https://docs-dev.newrelic.com/sites/default/files/thumbnails/image/Infinite_Tracing_Overview.png "Infinite_Tracing_Overview.png")
+    ![Here are two diagrams showing the flow of data: one for agents and another for integrations with Infinite Tracing.](./images/Infinite_Tracing_Overview.png "Infinite_Tracing_Overview.png")
 
     The trace observer holds traces open while spans for that trace arrive. Once the first span in a trace arrives, a session is kept open for 10 seconds. Each time a new span for that trace arrives, the expiration time is reset to 10 seconds. Traces that haven't seen a span arrive within the last 10 seconds will automatically expire.
   </Collapser>
@@ -198,7 +198,7 @@ Understanding the structure of a distributed trace can help you:
 
 A distributed trace has a tree-like structure, with "child" spans that refer to one "parent" span. This diagram shows some important span relationships in a trace:
 
-![New Relic distributed tracing trace structure diagram](https://docs-dev.newrelic.com/sites/default/files/thumbnails/image/new-relic-distributed-tracing-trace-structure.png "trace-structure-diagram.png")
+![New Relic distributed tracing trace structure diagram](./images/new-relic-distributed-tracing-trace-structure.png "trace-structure-diagram.png")
 
 This diagram shows how spans in a distributed trace relate to each other.
 
@@ -261,7 +261,7 @@ The scenarios below show various types of successful header propagation.
   >
     This shows the flow of headers when a request touches three different agent types:
 
-    ![Diagram showing a transaction's trip across various components.](https://docs-dev.newrelic.com/sites/default/files/thumbnails/image/doc-5207_mixed_example_2_0.png "mixed_example_2.png")
+    ![Diagram showing a transaction's trip across various components.](./images/doc-5207_mixed_example_2_0.png "mixed_example_2.png")
   </Collapser>
 
   <Collapser
@@ -270,7 +270,7 @@ The scenarios below show various types of successful header propagation.
   >
     This shows the combination of headers sent by a W3C New Relic agent to some middleware.
 
-    ![Diagram showing a successful trace with W3C-compliant middleware.](https://docs-dev.newrelic.com/sites/default/files/thumbnails/image/doc-5207_middleware_w3c_0.png "middleware_w3c.png")
+    ![Diagram showing a successful trace with W3C-compliant middleware.](./images/doc-5207_middleware_w3c_0.png "middleware_w3c.png")
   </Collapser>
 
   <Collapser
@@ -279,6 +279,6 @@ The scenarios below show various types of successful header propagation.
   >
     This shows the two required W3C headers from another vendor accepted by a W3C New Relic agent.
 
-    ![Diagram shows a successful trace with W3C-compliant vendor.](https://docs-dev.newrelic.com/sites/default/files/thumbnails/image/doc-5207_diff_vend_w3c_0.png "diff_vend_w3c.png")
+    ![Diagram shows a successful trace with W3C-compliant vendor.](./images/doc-5207_diff_vend_w3c_0.png "diff_vend_w3c.png")
   </Collapser>
 </CollapserGroup>

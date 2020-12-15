@@ -52,6 +52,8 @@ pages:
         path: /docs/telemetry-data-platform/get-data/apis/introduction-trace-api
       - title: Metric API limits and restricted attributes
         path: /docs/telemetry-data-platform/get-data/apis/metric-api-limits-restricted-attributes
+      - title: Troubleshoot Metric API with NRIntegrationError events
+        path: /docs/telemetry-data-platform/get-data/apis/troubleshoot-nrintegrationerror-events
       - title: 'Telemetry SDKs: Report custom telemetry data'
         path: /docs/telemetry-data-platform/get-started/capabilities/telemetry-sdks-send-custom-telemetry-data-new-relic
       - title: Report metrics via the Metric API

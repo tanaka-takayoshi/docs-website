@@ -2639,6 +2639,8 @@ pages:
             path: /docs/release-notes/infrastructure-release-notes/infrastructure-agent-release-notes/new-relic-infrastructure-agent-197
           - title: New Relic Infrastructure Windows Agent 1.0.934
             path: /docs/release-notes/infrastructure-release-notes/infrastructure-agent-release-notes/new-relic-infrastructure-windows-agent-10934
+  - title: Insights for Android 3.0.3
+    path: /docs/release-notes/insights-android-303
   - title: Mobile apps release notes
     pages:
       - title: Insights for iOS release notes
@@ -3159,6 +3161,12 @@ pages:
             path: /docs/release-notes/mobile-apps-release-notes/new-relic-ios-release-notes/new-relic-ios-3650
           - title: New Relic for iOS 3.66.0
             path: /docs/release-notes/mobile-apps-release-notes/new-relic-ios-release-notes/new-relic-ios-3660
+  - title: New Relic for Android 2.6.2
+    path: /docs/release-notes/new-relic-android-262
+  - title: New Relic for Android 2.7.3
+    path: /docs/release-notes/new-relic-android-273
+  - title: New Relic for Android 2.9.21
+    path: /docs/release-notes/new-relic-android-2921
   - title: New Relic Browser release notes
     pages:
       - title: Browser agent release notes
@@ -3205,6 +3213,8 @@ pages:
             path: /docs/release-notes/new-relic-browser-release-notes/browser-agent-release-notes/browser-agent-v974
           - title: Browser Agent v998
             path: /docs/release-notes/new-relic-browser-release-notes/browser-agent-release-notes/browser-agent-v998
+  - title: Browser Agent v1158
+    path: /docs/release-notes/new-relic-browser-release-notes/browser-agent-release-notes/browser-agent-v1158
   - title: Platform release notes
     pages:
       - title: Alerts release notes
