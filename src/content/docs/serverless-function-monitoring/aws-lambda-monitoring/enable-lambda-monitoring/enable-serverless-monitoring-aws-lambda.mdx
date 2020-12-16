@@ -387,14 +387,14 @@ newrelic-lambda layers install --function FUNCTION_NAME --nr-account-id NEW_RELI
         4. Optional: Add [custom events](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/getting-started/glossary#custom-event) that will be associated with your Lambda invocation by using the [`RecordCustomEvent` API](https://docs.newrelic.com/docs/agents/go-agent/features/create-custom-events-insights-go). For example:
 
 ```
-func handler(ctx context.Context) LEFTCURLY
-if txn := newrelic.FromContext(ctx); nil != txn LEFTCURLY
-  txn.Application().RecordCustomEvent("MyEvent", map[string]interfaceLEFTCURLYRIGHTCURLYLEFTCURLY
+func handler(ctx context.Context) {
+if txn := newrelic.FromContext(ctx); nil != txn {
+  txn.Application().RecordCustomEvent("MyEvent", map[string]interface{}{
     "zip": "zap",
-  RIGHTCURLY)
-RIGHTCURLY
+  })
+}
 fmt.Println("hello world!")
-RIGHTCURLY
+}
 ```
 
         5. Build and zip your Lambda function and upload it to AWS.
@@ -455,11 +455,11 @@ $ zip deployment.zip main
         1. In your project’s `build.gradle` file, include our OpenTracing AWS Lambda Tracer and the AWS Lambda OpenTracing SDK dependencies:
 
 ```
-dependencies LEFTCURLY
+dependencies {
       compile("com.newrelic.opentracing:java-aws-lambda:2.1.0")
       compile("com.newrelic.opentracing:newrelic-java-lambda:2.1.1")
       compile("io.opentracing:opentracing-util:0.33.0")
-RIGHTCURLY
+}
 ```
 
         2. Implement the AWS Lambda `RequestHandler` interface as shown in the [Java Lambda example](https://github.com/newrelic/newrelic-lambda-tracer-java#usage) and override the `doHandleRequest` method.
@@ -506,20 +506,20 @@ using NewRelic.OpenTracing.AmazonLambda;
 
 ```
 public class Function
-LEFTCURLY
+{
 
   static Function()
-  LEFTCURLY
+  {
     // Register The NewRelic Lambda Tracer Instance
     GlobalTracer.Register(NewRelic.OpenTracing.AmazonLambda.LambdaTracer.Instance);
-  RIGHTCURLY
+  }
 
   public object FunctionWrapper(ILambdaContext context)
-  LEFTCURLY
+  {
     // Instantiate NewRelic TracingWrapper and pass your FunctionHandler as
     // an argument
     return new TracingRequestHandler().LambdaWrapper(FunctionHandler, context);
-  RIGHTCURLY
+  }
   /// <summary>
   /// A simple function that takes a string and does a ToUpper
   /// </summary>
@@ -527,9 +527,9 @@ LEFTCURLY
   /// <param name="context"></param>
   /// <returns></returns>
   public object FunctionHandler(ILambdaContext context)
-  LEFTCURLY ... RIGHTCURLY
+  { ... }
 
-RIGHTCURLY
+}
 ```
 
            <Callout variant="tip">
@@ -548,18 +548,18 @@ RIGHTCURLY
 
 ```
 public override TaskINT FunctionHandlerAsync(ILambdaContext lambdaContext)
-LEFTCURLY
+{
   // This call will block by calling task.Result
   TaskINT task = new TracingRequestHandler().LambdaWrapper(
                                   ActualFunctionHandlerAsync, lambdaContext);
   return task;
-RIGHTCURLY
+}
 
 public TaskAPIGatewayProxyResponse ActualFunctionHandlerAsync(ILambdaContext
                                                                 lambdaContext)
-LEFTCURLY // Function can make other async operations here
+{ // Function can make other async operations here
   ...
-RIGHTCURLY
+}
 ```
 
              </Collapser>
@@ -571,24 +571,24 @@ RIGHTCURLY
 
 ```
 public class LambdaFunction : APIGatewayProxyFunction
-LEFTCURLY
+{
   static LambdaFunction()
-  LEFTCURLY
+  {
     // Register The NewRelic Lambda Tracer Instance
     OpenTracing.Util.GlobalTracer.Register(NewRelic.OpenTracing.AmazonLambda.LambdaTracer.Instance);
-  RIGHTCURLY
+  }
 
   public override TaskAPIGatewayProxyResponse FunctionHandlerAsync(APIGatewayProxyRequest request, ILambdaContext lambdaContext)
-  LEFTCURLY
+  {
     TaskAPIGatewayProxyResponse task = new TracingRequestHandler().LambdaWrapper(ActualFunctionHandlerAsync, request, lambdaContext);
     return task;
-  RIGHTCURLY
+  }
 
   public TaskAPIGatewayProxyResponse ActualFunctionHandlerAsync(APIGatewayProxyRequest request, ILambdaContext lambdaContext)
-  LEFTCURLY
+  {
     return base.FunctionHandlerAsync(request, lambdaContext);
-  RIGHTCURLY
-RIGHTCURLY
+  }
+}
 ```
 
              </Collapser>
@@ -719,22 +719,22 @@ const newrelic = require('newrelic');
 require('@newrelic/aws-sdk');
 
 
-module.exports.handler = newrelic.setLambdaHandler((event, context, callback) => LEFTCURLY
+module.exports.handler = newrelic.setLambdaHandler((event, context, callback) => {
   // This is your handler function code
   console.log('Lambda executed');
   callback();
-RIGHTCURLY);
+});
 ```
 
         4. Optional: You can also add [custom events](/docs/using-new-relic/welcome-new-relic/getting-started/glossary#custom-event) to your Lambda using the [`recordCustomEvent` API](/docs/agents/nodejs-agent/api-guides/nodejs-agent-api#record_custom_event). For example:
 
 ```
-module.exports.handler = newrelic.setLambdaHandler((event, context, callback) => LEFTCURLY
-  newrelic.recordCustomEvent(‘MyEventType’, LEFTCURLYfoo: ‘bar’RIGHTCURLY);
+module.exports.handler = newrelic.setLambdaHandler((event, context, callback) => {
+  newrelic.recordCustomEvent(‘MyEventType’, {foo: ‘bar’});
 
   console.log('Lambda executed');
   callback();
-RIGHTCURLY);
+});
 ```
 
         5. Zip your Lambda function and the Node.js agent folder together. Requirements and recommendations:
@@ -790,7 +790,7 @@ def handler(event, context):
 ```
 @newrelic.agent.lambda_handler()
 def handler(event, context):
-    newrelic.agent.record_custom_event('CustomEvent', LEFTCURLY'foo': 'bar'RIGHTCURLY)
+    newrelic.agent.record_custom_event('CustomEvent', {'foo': 'bar'})
 …
 ```
 
